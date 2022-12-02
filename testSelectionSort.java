@@ -78,7 +78,9 @@ class testSelectionSort {
 
 		temp = new SelectionSort();
 		int[] test = temp.basicSelectionSort(arr);
-		assertEquals(Sortedarr, test);
+		for (int i = 0; i < 5; ++i) {
+			assertEquals(Sortedarr[i], test[i]);
+		}
 	}
 
 	@Test
@@ -99,6 +101,8 @@ class testSelectionSort {
 
 		temp = new SelectionSort();
 		int[] test = temp.basicSelectionSort(arr);
-		assertEquals(Sortedarr, test);
+		for (int i = 0; i < 5; ++i) {
+			assertEquals(Sortedarr[i], test[i]);
+		}
 	}
 }
